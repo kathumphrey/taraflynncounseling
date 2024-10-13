@@ -1,1 +1,117 @@
-/* your styles will go here!! */
+a {
+    color: #81c7a2;
+}
+
+header {background-color: rgb(245, 245, 224);
+        margin: -20px;
+        padding: 50px;
+        
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 5%;
+}
+
+nav a:hover, nav a:focus {
+    text-decoration: underline;
+    color: ;
+}
+
+
+
+body {background: #ffffff;
+}
+
+main {  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {color: #504E4E;
+    text-align: center;
+    font-family: JejuMyeongjo;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+h2 {color: #777676;
+    text-align: center;
+    font-family: Italianno;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+
+}
+
+h3 {color: #494949;
+    text-align:left;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+width: 306px;
+height: 229px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+}
+
+h4 {color: #555454;
+    text-align: center;
+    font-family: "Istok Web";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+    margin: 10;
+    padding: 25px;
+    
+}
+
+h5 {color: #7C7979;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-align: center;
+}
+
+.pink-bg {
+    background: rgba(253, 233, 241, 0.76);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+width: 500px;
+    
+}
+
+footer {
+    display: flex;
+    padding: 40px 50px;
+    background-color: beige;
+    margin: -20px;
+}
+
+p {
+    color: #535353;
+text-align: center;
+font-family: Italianno;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 1px
+}
+
+
+
